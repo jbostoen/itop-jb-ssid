@@ -398,10 +398,13 @@
 		  </definition>
 		</menu>
 	</menus>
-
-	<group id="Configuration" _altered_in="itop-profiles-itil">
-        <classes>
-          <class id="SSID" _delta="define"/>		
-		</classes>
-	</group>
+	<user_rights>
+		<groups>
+			<group id="Configuration" _altered_in="itop-profiles-itil">
+				<classes>
+				  <class id="SSID" _delta="define"/>		
+				</classes>
+			</group>
+		</groups>
+	</user_rights>
 </itop_design>
