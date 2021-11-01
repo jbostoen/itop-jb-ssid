@@ -294,8 +294,8 @@
 				</order>
 				<reconciliation>
 					<attributes>
-						<attirbute id="ssid_id"/>
-						<attirbute id="networkdevice_id"/>
+						<attribute id="ssid_id"/>
+						<attribute id="networkdevice_id"/>
 					</attributes>
 				</reconciliation>
 				<icon/>
@@ -400,7 +400,7 @@
 	</menus>
 	<user_rights>
 		<groups>
-			<group id="Configuration" _altered_in="itop-profiles-itil">
+			<group id="Configuration">
 				<classes>
 				  <class id="SSID" _delta="define"/>		
 				</classes>
